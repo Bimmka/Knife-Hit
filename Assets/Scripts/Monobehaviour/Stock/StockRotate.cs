@@ -23,6 +23,18 @@ public class StockRotate : MonoBehaviour
     
     [Header("Максимальное время без движения")] 
     [SerializeField] private float maxIdleTime = 3f;
+    
+    [Header("Минимальное время для остановки")] 
+    [SerializeField] private float minTimeToStop = 1f;
+    
+    [Header("Максимальное время для остановки")] 
+    [SerializeField] private float maxTimeToStop = 3f;
+    
+    [Header("Минимальное время без движения")] 
+    [SerializeField] private float minTimeToStart = 1f;
+    
+    [Header("Максимальное время без движения")] 
+    [SerializeField] private float maxTimeToStart = 3f;
 
     #endregion
     
